@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './index.css';
 
 export default function Table(props){
-    
+    console.log(props.user)
     return (
         <div className="container">
             <table className="table-main">
@@ -12,7 +12,7 @@ export default function Table(props){
                     <th>Status</th>
                 </thead>
                 <tbody>
-                {props.user != null ? props.user.map(user =>    
+                {props.user !== null ? props.user.map(user =>    
                   <tr>                
                     <td>{user.ID}</td>
                     <td>{user.USERNAME}</td>

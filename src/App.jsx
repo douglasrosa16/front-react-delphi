@@ -4,8 +4,7 @@ import Routes from './routes/routes';
 function App() {
   return (
     <>
-      <Header />
-      <Routes />      
+      <Routes />             
     </>
   );
 }

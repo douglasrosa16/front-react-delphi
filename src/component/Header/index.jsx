@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './index.css';
 
@@ -6,16 +7,19 @@ export default function Header(){
   return (
     <div className="header-top">
       <div className="itens">
-        Contato
+        <Link to={'/'}>
+          Home
+        </Link>        
       </div>
       <div className="itens">
-        Sobre
+        <Link to={'/about'}>
+          Sobre
+        </Link>                
       </div>
       <div className="itens">
-        Cadastro
-      </div>
-      <div className="itens">
-        Login
+        <Link to={'/cadastro-users'}>
+          Cadastro
+        </Link>        
       </div>      
     </div>
   )

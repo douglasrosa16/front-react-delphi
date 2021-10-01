@@ -13,3 +13,8 @@ table, td, th {
 .table-main {
     width: 900px;    
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}

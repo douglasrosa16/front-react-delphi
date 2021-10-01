@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import api from '../../services/api';
-import {} from 'feather-icons';
 
 function CreateUser(props) {
   const history = useHistory()
